@@ -1,14 +1,40 @@
+body {
+  font-family: "Karla", sans-serif; }
+
 .container {
   max-width: 92%; }
 
 #gallery {
   padding-bottom: 25px; }
 
+#first-row {
+  padding-top: 0; }
+
 .navbar {
-  padding: 1.5rem 1rem; }
+  padding: 1.5rem 1rem;
+  text-transform: lowercase; }
+  .navbar .navbar-brand {
+    font-size: 2rem; }
 
 .bg-light {
   background-color: #fff !important; }
+
+.navbar-light .navbar-toggler {
+  border: none; }
+
+#header {
+  font-family: "Kumar One", sans-serif;
+  text-transform: lowercase;
+  display: inline;
+  position: relative;
+  color: #f4d2d9; }
+
+#header:after {
+  content: "bridget errante";
+  position: absolute;
+  left: 4px;
+  top: 9px;
+  color: #f0594e; }
 
 .row {
   padding-bottom: 12px;

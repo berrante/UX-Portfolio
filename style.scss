@@ -1,3 +1,8 @@
+//Global
+body {
+  font-family: "Karla", sans-serif;
+}
+
 //Page Margins
 .container {
   max-width: 92%;
@@ -7,14 +12,43 @@
   padding-bottom: 25px;
 }
 
-//Nav bar spacing
+#first-row {
+  padding-top: 0;
+}
+//Nav bar
 .navbar {
   padding: 1.5rem 1rem;
+  text-transform: lowercase;
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
 }
 
 .bg-light{
   background-color: #fff!important;
 }
+
+//Hamburger
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+// Header
+#header {
+    font-family: "Kumar One", sans-serif;
+    text-transform: lowercase;
+    display: inline;
+    position: relative;
+    color: rgb(244,210,217);
+}
+
+  #header:after {
+    content: "bridget errante";
+    position: absolute; left: 4px; top: 9px;
+    color: rgb(240,89,78);
+  }
 
 // Grid Spacing
 .row {
