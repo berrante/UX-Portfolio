@@ -15,6 +15,9 @@ body {
   text-transform: lowercase; }
   .navbar .navbar-brand {
     font-size: 2rem; }
+    @media (max-width: 462px) {
+      .navbar .navbar-brand {
+        font-size: 1.6rem; } }
 
 .bg-light {
   background-color: #fff !important; }
@@ -107,6 +110,9 @@ body {
       background-color: #fff;
       border-style: solid;
       width: 50%; } }
+  @media (max-width: 575px) {
+    #contact-btn-sm {
+      width: 100%; } }
 
 #bottom-nav {
   font-size: 1.25rem;
