@@ -105,7 +105,8 @@ body {
     #contact-btn-sm {
       visibility: visible;
       background-color: #fff;
-      border-style: solid; } }
+      border-style: solid;
+      width: 50%; } }
 
 #bottom-nav {
   font-size: 1.25rem;
