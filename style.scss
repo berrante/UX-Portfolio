@@ -15,6 +15,7 @@ body {
 #first-row {
   padding-top: 0;
 }
+
 //Nav bar
 .navbar {
   padding: 1.5rem 1rem;
@@ -111,3 +112,20 @@ padding-top: 12px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+//Bottom Nav
+#bottom-nav {
+  font-size: 1.25rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+  a:hover {
+    text-decoration: none;
+    color: #000;
+  }
