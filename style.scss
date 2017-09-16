@@ -113,14 +113,36 @@ padding-top: 12px;
   -ms-transform: translate(-50%, -50%);
 }
 
-//About
+//About page
 #about-text {
   text-align: right;
+
+  @media (max-width: 990px){
+    text-align: center;
+  }
 }
 
 #contact-btn {
-  align-content: right;
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  border-style: solid;
+
+  @media (max-width: 991px){
+    visibility: hidden;
+  }
 }
+
+#contact-btn-sm{
+  visibility: hidden;
+
+  @media (max-width: 991px){
+    visibility: visible;
+    background-color: #fff;
+    border-style: solid;
+  }
+}
+
 //Bottom Nav
 #bottom-nav {
   font-size: 1.25rem;
