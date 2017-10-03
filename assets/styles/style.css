@@ -119,6 +119,12 @@ body {
   font-size: 1.25rem;
   padding-left: 15px;
   padding-right: 15px; }
+  @media (max-width: 991px) {
+    #bottom-nav {
+      font-size: 1rem; } }
+  @media (max-width: 575px) {
+    #bottom-nav {
+      visibility: hidden; } }
 
 a {
   text-decoration: none;
@@ -127,5 +133,13 @@ a {
 a:hover {
   text-decoration: none;
   color: #000; }
+
+.card {
+  border: none; }
+  .card .card-img-bottom {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; }
+  .card h3 {
+    font-family: "Kumar One", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
