@@ -34,6 +34,7 @@ body {
 
 #header:after {
   content: "bridget errante";
+  font-family: "Kumar One Outline", sans-serif;
   position: absolute;
   left: 4px;
   top: 9px;
