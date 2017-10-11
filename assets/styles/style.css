@@ -1,5 +1,7 @@
 body {
   font-family: "Karla", sans-serif; }
+  body h2 {
+    font-weight: 700; }
 
 .container {
   max-width: 92%; }
@@ -15,7 +17,7 @@ body {
   text-transform: lowercase; }
   .navbar .navbar-brand {
     font-size: 2rem; }
-    @media (max-width: 462px) {
+    @media (max-width: 576px) {
       .navbar .navbar-brand {
         font-size: 1.6rem; } }
 
@@ -48,7 +50,7 @@ body {
   padding-left: 12px;
   padding-right: 12px; }
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
   .row {
     padding-bottom: 0;
     padding-top: 0; }
@@ -57,13 +59,17 @@ body {
     padding-bottom: 24px; } }
 #landing-text-1 {
   display: none; }
-  @media (max-width: 990px) {
+  @media (max-width: 992px) {
     #landing-text-1 {
       display: block; } }
+  @media (max-width: 576px) {
+    #landing-text-1 {
+      display: block;
+      text-align: center; } }
 
 #landing-text-2 {
   display: block; }
-  @media (max-width: 990px) {
+  @media (max-width: 992px) {
     #landing-text-2 {
       display: none; } }
 
@@ -102,7 +108,7 @@ body {
 
 #about-text {
   text-align: right; }
-  @media (max-width: 990px) {
+  @media (max-width: 992px) {
     #about-text {
       text-align: center; } }
 
@@ -117,13 +123,13 @@ body {
 
 #contact-btn-sm {
   visibility: hidden; }
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     #contact-btn-sm {
       visibility: visible;
       background-color: #fff;
       border-style: solid;
       width: 50%; } }
-  @media (max-width: 575px) {
+  @media (max-width: 576px) {
     #contact-btn-sm {
       width: 100%; } }
 
@@ -134,7 +140,7 @@ body {
   @media (max-width: 991px) {
     #bottom-nav {
       font-size: 1rem; } }
-  @media (max-width: 575px) {
+  @media (max-width: 576px) {
     #bottom-nav {
       visibility: hidden; } }
 
