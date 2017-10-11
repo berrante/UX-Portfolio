@@ -55,6 +55,18 @@ body {
 
   .col-sm-12 {
     padding-bottom: 24px; } }
+#landing-text-1 {
+  display: none; }
+  @media (max-width: 990px) {
+    #landing-text-1 {
+      display: block; } }
+
+#landing-text-2 {
+  display: block; }
+  @media (max-width: 990px) {
+    #landing-text-2 {
+      display: none; } }
+
 #img-container {
   position: relative;
   width: 50%; }
