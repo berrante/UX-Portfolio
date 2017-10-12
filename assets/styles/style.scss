@@ -2,8 +2,16 @@
 body {
   font-family: "Karla", sans-serif;
 
-  h2 {
+  h3{
     font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -3px;
+    line-height: 1;
+  }
+
+  h4{
+    font-size: 1.2rem;
+    margin: 0;
   }
 }
 
@@ -22,7 +30,7 @@ body {
 
 //Nav bar
 .navbar {
-  padding: 1.5rem 1rem;
+  padding: 2.5rem 1rem 3rem 1rem;
   text-transform: lowercase;
 
   .navbar-brand {
@@ -46,6 +54,7 @@ body {
 // Header
 #header {
     font-family: "Kumar One", sans-serif;
+    text-align: center;
     text-transform: lowercase;
     display: inline;
     position: relative;
@@ -61,13 +70,8 @@ body {
 
 // Grid Spacing
 .row {
-padding-bottom: 12px;
-padding-top: 12px;
-}
+padding: 12px 16px 12px 16px;
 
-.col-lg-6 {
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 // Mobile Grid
@@ -82,6 +86,7 @@ padding-top: 12px;
   }
 }
 
+// Homepage Text
 #landing-text-1 {
   display: none;
 
@@ -102,12 +107,11 @@ padding-top: 12px;
   }
 }
 
-// Gallery img hover
-#img-container {
-  position: relative;
-  width: 50%;
+#landing-row {
+  // background-color: #f4f6f6;
 }
 
+// Gallery
 #gallery-img {
   display: block;
   width: 100%;
@@ -135,10 +139,20 @@ padding-top: 12px;
   color: #000;
   font-size: 20px;
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+//Footer
+.fa{
+  padding-left: 10px;
+}
+p{
+  padding-top: 10px;
+  margin: 0;
 }
 
 //About page
@@ -155,10 +169,11 @@ padding-top: 12px;
   bottom: 0;
   background-color: #fff;
   border-style: solid;
+  padding: 10px 20px 10px 20px;
 
-  @media (max-width: 991px){
-    visibility: hidden;
-  }
+  // @media (max-width: 991px){
+  //   visibility: hidden;
+  // }
 }
 
 #contact-btn-sm{
