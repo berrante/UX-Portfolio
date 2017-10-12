@@ -2,9 +2,9 @@ body {
   font-family: "Karla", sans-serif; }
   body h3 {
     font-weight: 700;
-    font-size: 3rem;
-    letter-spacing: -3px;
-    line-height: 1; }
+    font-size: 1.625rem;
+    letter-spacing: -2px;
+    line-height: 1.385; }
   body h4 {
     font-size: 1.2rem;
     margin: 0; }
@@ -19,7 +19,7 @@ body {
   padding-top: 0; }
 
 .navbar {
-  padding: 2.5rem 1rem 3rem 1rem;
+  padding: 2.5rem 1rem 0 1rem;
   text-transform: lowercase; }
   .navbar .navbar-brand {
     font-size: 2rem; }
@@ -34,23 +34,16 @@ body {
   border: none; }
 
 #header {
-  font-family: "Kumar One", sans-serif;
+  font-family: "Kumar One Outline", sans-serif;
   text-align: center;
   text-transform: lowercase;
   display: inline;
   position: relative;
-  color: #f4d2d9; }
-
-#header:after {
-  content: "bridget errante";
-  font-family: "Kumar One Outline", sans-serif;
-  position: absolute;
-  left: 4px;
-  top: 9px;
-  color: #f0594e; }
+  padding: 0;
+  color: #f16754; }
 
 .row {
-  padding: 12px 16px 12px 16px; }
+  padding: 0px 16px 12px 16px; }
 
 @media (max-width: 992px) {
   .row {
@@ -60,7 +53,7 @@ body {
   .col-sm-12 {
     padding-bottom: 24px; } }
 #landing-text-1 {
-  display: none; }
+  display: block; }
   @media (max-width: 992px) {
     #landing-text-1 {
       display: block; } }
@@ -70,10 +63,13 @@ body {
       text-align: center; } }
 
 #landing-text-2 {
-  display: block; }
+  display: none; }
   @media (max-width: 992px) {
     #landing-text-2 {
       display: none; } }
+
+#homepage-text {
+  padding: 2.5rem 0 2.5rem 1rem; }
 
 #gallery-img {
   display: block;

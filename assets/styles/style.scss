@@ -4,9 +4,9 @@ body {
 
   h3{
     font-weight: 700;
-    font-size: 3rem;
-    letter-spacing: -3px;
-    line-height: 1;
+    font-size: 1.625rem;
+    letter-spacing: -2px;
+    line-height: 1.385;
   }
 
   h4{
@@ -30,7 +30,7 @@ body {
 
 //Nav bar
 .navbar {
-  padding: 2.5rem 1rem 3rem 1rem;
+  padding: 2.5rem 1rem 0 1rem;
   text-transform: lowercase;
 
   .navbar-brand {
@@ -53,24 +53,25 @@ body {
 
 // Header
 #header {
-    font-family: "Kumar One", sans-serif;
+    font-family: "Kumar One Outline", sans-serif;
     text-align: center;
     text-transform: lowercase;
     display: inline;
     position: relative;
-    color: rgb(244,210,217);
+    padding: 0;
+    color: rgb(241, 103, 84);
 }
 
-#header:after {
-    content: "bridget errante";
-    font-family: "Kumar One Outline", sans-serif;
-    position: absolute; left: 4px; top: 9px;
-    color: rgb(240,89,78);
-}
+// #header:after {
+//     content: "bridget errante";
+//     font-family: "Kumar One Outline", sans-serif;
+//     position: absolute; left: 4px; top: 9px;
+//     color: rgb(240,89,78);
+// }
 
 // Grid Spacing
 .row {
-padding: 12px 16px 12px 16px;
+padding: 0px 16px 12px 16px;
 
 }
 
@@ -88,7 +89,7 @@ padding: 12px 16px 12px 16px;
 
 // Homepage Text
 #landing-text-1 {
-  display: none;
+  display: block;
 
   @media (max-width: 992px){
     display: block;
@@ -100,7 +101,7 @@ padding: 12px 16px 12px 16px;
 }
 
 #landing-text-2 {
-  display: block;
+  display: none;
 
   @media (max-width: 992px){
     display: none;
@@ -111,6 +112,9 @@ padding: 12px 16px 12px 16px;
   // background-color: #f4f6f6;
 }
 
+#homepage-text{
+  padding: 2.5rem 0 2.5rem 1rem;
+}
 // Gallery
 #gallery-img {
   display: block;
