@@ -1,16 +1,15 @@
 body {
-  font-family: "Karla", sans-serif; }
-  body h3 {
-    font-weight: 700;
-    font-size: 1.625rem;
-    letter-spacing: -2px;
-    line-height: 1.385; }
+  height: 100%;
+  font-family: "Karla", sans-serif;
+  background-color: #f3f3f3; }
   body h4 {
     font-size: 1.2rem;
     margin: 0; }
 
 .container {
-  max-width: 92%; }
+  max-width: 1070px;
+  margin-left: auto;
+  margin-right: auto; }
 
 #gallery {
   padding-bottom: 25px; }
@@ -19,28 +18,23 @@ body {
   padding-top: 0; }
 
 .navbar {
-  padding: 2.5rem 1rem 0 1rem;
-  text-transform: lowercase; }
+  padding: 2rem 1rem 0 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.08rem; }
   .navbar .navbar-brand {
-    font-size: 2rem; }
-    @media (max-width: 576px) {
-      .navbar .navbar-brand {
-        font-size: 1.6rem; } }
+    font-size: 0.9rem; }
 
-.bg-light {
-  background-color: #fff !important; }
-
-.navbar-light .navbar-toggler {
-  border: none; }
-
-#header {
-  font-family: "Kumar One Outline", sans-serif;
+#logo {
   text-align: center;
-  text-transform: lowercase;
+  text-transform: uppercase;
   display: inline;
   position: relative;
   padding: 0;
   color: #f16754; }
+
+.navbar-light .navbar-toggler {
+  border: none; }
 
 .row {
   padding: 0px 16px 12px 16px; }
@@ -52,24 +46,29 @@ body {
 
   .col-sm-12 {
     padding-bottom: 24px; } }
-#landing-text-1 {
-  display: block; }
-  @media (max-width: 992px) {
-    #landing-text-1 {
-      display: block; } }
+#header {
+  padding: 2.5rem 0 0.5rem 1rem; }
+
+#header-row {
+  padding: 6rem 1rem; }
+  #header-row p {
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    padding-bottom: 2rem; }
   @media (max-width: 576px) {
-    #landing-text-1 {
-      display: block;
-      text-align: center; } }
+    #header-row {
+      padding: 3rem 1.75rem; }
+      #header-row p {
+        font-size: 1.3rem;
+        line-height: 2.2rem; } }
 
-#landing-text-2 {
-  display: none; }
-  @media (max-width: 992px) {
-    #landing-text-2 {
-      display: none; } }
-
-#homepage-text {
-  padding: 2.5rem 0 2.5rem 1rem; }
+#select-work h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.07rem;
+  padding: 0 0 1rem 0;
+  margin: 0; }
 
 #gallery-img {
   display: block;
@@ -108,31 +107,6 @@ p {
   padding-top: 10px;
   margin: 0; }
 
-#about-text {
-  text-align: right; }
-  @media (max-width: 992px) {
-    #about-text {
-      text-align: center; } }
-
-#contact-btn {
-  position: absolute;
-  bottom: 0;
-  background-color: #fff;
-  border-style: solid;
-  padding: 10px 20px 10px 20px; }
-
-#contact-btn-sm {
-  visibility: hidden; }
-  @media (max-width: 992px) {
-    #contact-btn-sm {
-      visibility: visible;
-      background-color: #fff;
-      border-style: solid;
-      width: 50%; } }
-  @media (max-width: 576px) {
-    #contact-btn-sm {
-      width: 100%; } }
-
 #bottom-nav {
   font-size: 1.25rem;
   padding-left: 15px;
@@ -153,7 +127,8 @@ a:hover {
   color: #000; }
 
 .card {
-  border: none; }
+  border: none;
+  background-color: transparent; }
   .card .card-img-bottom {
     padding-left: 1.25rem;
     padding-right: 1.25rem; }

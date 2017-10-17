@@ -5,10 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- FontAwesome -->
+    <script src="https://use.fontawesome.com/53bc98a6bd.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Karla|Kumar+One|Kumar+One+Outline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Kumar+One+Outline|Kumar+One" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
 
@@ -16,8 +18,27 @@
   </head>
 
   <body>
+    <!--Mask-->
+      <div class="view">
+          <!--Intro content-->
+          <div class="full-bg-img flex-center">
+              <ul>
+                  <li>
+                      <h1 class="h1-responsive">Material Design for Bootstrap 4</h1></li>
+                  <li>
+                      <p>The most powerful and free UI KIT for Bootstrap</p>
+                  </li>
+                  <li>
+                      <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">Sign up!</a>
+                      <a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg">Learn more</a>
+                  </li>
+              </ul>
+          </div>
+          <!--/Intro content-->
+      </div>
+      <!--/.Mask-->
     <!-- Nav bar -->
-    <div class="container">
+    <!-- <div class="container"> -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html" id="header">Bridget Errante</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,37 +46,18 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Work</a>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Work<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
         </div>
       </nav>
-    </div>
+    <!-- </div> <!-- container --> -->
 
-    <div class="container">
-      <div class="row">
-        <!--About -->
-        <div class="col-xs-12 col-sm-12 col-lg-4">
-          <p id="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <!-- Contact button lg screen-->
-          <div class="d-flex justify-content-end">
-            <button id="contact-btn">Contact</button>
-          </div>
-          <!-- Contact button sm/md screen -->
-          <div class="d-flex justify-content-center">
-            <button id="contact-btn-sm">Contact</button>
-          </div>
-        </div>
-        <!-- Photo -->
-        <div class="col-xs-12 col-sm-12 col-lg-8">
-          <img src="https://static.pexels.com/photos/60470/night-studio-color-minimalism-60470.jpeg" class="img-fluid" alt="Responsive image" />
-        </div>
-      </div>
-    </div>
+
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

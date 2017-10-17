@@ -1,13 +1,8 @@
 //Global
-body {
+body{
+  height: 100%;
   font-family: "Karla", sans-serif;
-
-  h3{
-    font-weight: 700;
-    font-size: 1.625rem;
-    letter-spacing: -2px;
-    line-height: 1.385;
-  }
+  background-color: #f3f3f3;
 
   h4{
     font-size: 1.2rem;
@@ -17,7 +12,9 @@ body {
 
 //Page Margins
 .container {
-  max-width: 92%;
+  max-width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #gallery {
@@ -30,20 +27,24 @@ body {
 
 //Nav bar
 .navbar {
-  padding: 2.5rem 1rem 0 1rem;
-  text-transform: lowercase;
+  padding: 2rem 1rem 0 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.08rem;
 
   .navbar-brand {
-    font-size: 2rem;
-
-    @media (max-width: 576px){
-    font-size: 1.6rem;
-    }
+    font-size: 0.9rem;
   }
+
 }
 
-.bg-light{
-  background-color: #fff!important;
+#logo {
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+    padding: 0;
+    color: rgb(241, 103, 84);
 }
 
 //Hamburger
@@ -51,28 +52,9 @@ body {
   border: none;
 }
 
-// Header
-#header {
-    font-family: "Kumar One Outline", sans-serif;
-    text-align: center;
-    text-transform: lowercase;
-    display: inline;
-    position: relative;
-    padding: 0;
-    color: rgb(241, 103, 84);
-}
-
-// #header:after {
-//     content: "bridget errante";
-//     font-family: "Kumar One Outline", sans-serif;
-//     position: absolute; left: 4px; top: 9px;
-//     color: rgb(240,89,78);
-// }
-
 // Grid Spacing
 .row {
 padding: 0px 16px 12px 16px;
-
 }
 
 // Mobile Grid
@@ -87,33 +69,40 @@ padding: 0px 16px 12px 16px;
   }
 }
 
-// Homepage Text
-#landing-text-1 {
-  display: block;
+// Header/About
+#header{
+  padding: 2.5rem 0 0.5rem 1rem;
+}
 
-  @media (max-width: 992px){
-    display: block;
-  }
+#header-row {
+  padding: 6rem 1rem;
+
+  p{
+  font-size: 1.9rem;
+  line-height: 2.6rem;
+  padding-bottom: 2rem;
+}
+
   @media (max-width: 576px){
-    display: block;
-    text-align: center;
+    padding: 3rem 1.75rem;
+
+    p{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    }
   }
 }
 
-#landing-text-2 {
-  display: none;
-
-  @media (max-width: 992px){
-    display: none;
+//Select Work
+#select-work{
+  h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.07rem;
+    padding: 0 0 1rem 0;
+    margin: 0;
   }
-}
-
-#landing-row {
-  // background-color: #f4f6f6;
-}
-
-#homepage-text{
-  padding: 2.5rem 0 2.5rem 1rem;
 }
 // Gallery
 #gallery-img {
@@ -159,42 +148,6 @@ p{
   margin: 0;
 }
 
-//About page
-#about-text {
-  text-align: right;
-
-  @media (max-width: 992px){
-    text-align: center;
-  }
-}
-
-#contact-btn {
-  position: absolute;
-  bottom: 0;
-  background-color: #fff;
-  border-style: solid;
-  padding: 10px 20px 10px 20px;
-
-  // @media (max-width: 991px){
-  //   visibility: hidden;
-  // }
-}
-
-#contact-btn-sm{
-  visibility: hidden;
-
-  @media (max-width: 992px){
-    visibility: visible;
-    background-color: #fff;
-    border-style: solid;
-    width: 50%;
-  }
-
-  @media (max-width: 576px){
-    width: 100%;
-  }
-}
-
 //Bottom Nav
 #bottom-nav {
   font-size: 1.25rem;
@@ -223,6 +176,7 @@ a {
 //Portfolio Pages
 .card {
   border: none;
+  background-color: transparent;
 
   .card-img-bottom {
     padding-left: 1.25rem;
