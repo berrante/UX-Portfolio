@@ -18,13 +18,13 @@ body {
   padding-top: 0; }
 
 .navbar {
-  padding: 2rem 1rem 0 1rem;
+  padding: 1.75rem 1rem 0 1rem;
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 0.08rem; }
   @media (max-width: 992px) {
     .navbar {
-      padding: 2rem 1rem 0 1.75rem; } }
+      padding: 1.75rem 1rem 0 1.75rem; } }
   .navbar .navbar-brand {
     font-size: 0.9rem; }
 
@@ -79,9 +79,30 @@ body {
   #select-work {
     padding-left: 1.75rem; } }
 
-@media (max-width: 992px) {
-  #first-row {
-    padding-left: 1.75rem; } }
+#gallery #project-img {
+  padding-bottom: 8rem; }
+#gallery #project-id {
+  font-family: "Rakkas", serif;
+  font-size: 6rem;
+  line-height: 1; }
+  @media (max-width: 700px) {
+    #gallery #project-id {
+      font-size: 2.5rem; } }
+#gallery #project-desc {
+  font-size: 1.5rem; }
+  @media (max-width: 700px) {
+    #gallery #project-desc {
+      font-size: 1rem; } }
+
+#gallery.row {
+  background-image: url("../images/example_long.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+  @media (max-width: 992px) {
+    #gallery.row {
+      margin-left: 1.75rem; } }
 
 #gallery-img {
   display: block;
