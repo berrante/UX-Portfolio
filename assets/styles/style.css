@@ -1,7 +1,7 @@
 body {
   height: 100%;
   font-family: "Karla", sans-serif;
-  background-color: #f3f3f3; }
+  background-color: #ffffff; }
   body h4 {
     font-size: 1.2rem;
     margin: 0; }
@@ -93,16 +93,6 @@ body {
   @media (max-width: 700px) {
     #gallery #project-desc {
       font-size: 1rem; } }
-
-#gallery.row {
-  background-image: url("../images/example_long.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 1rem;
-  margin-right: 1rem; }
-  @media (max-width: 992px) {
-    #gallery.row {
-      margin-left: 1.75rem; } }
 
 #gallery-img {
   display: block;

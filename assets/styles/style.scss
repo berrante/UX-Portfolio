@@ -2,7 +2,7 @@
 body{
   height: 100%;
   font-family: "Karla", sans-serif;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
 
   h4{
     font-size: 1.2rem;
@@ -143,17 +143,17 @@ padding: 0px 16px 12px 16px;
   }
 }
 
-#gallery.row{
-    background-image: url("../images/example_long.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 1rem;
-    margin-right: 1rem;
-
-    @media (max-width: 992px){
-      margin-left: 1.75rem;
-    }
-}
+// #gallery.row{
+//     background-image: url("../images/example_long.png");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     margin-left: 1rem;
+//     margin-right: 1rem;
+//
+//     @media (max-width: 992px){
+//       margin-left: 1.75rem;
+//     }
+// }
 
 #gallery-img {
   display: block;
