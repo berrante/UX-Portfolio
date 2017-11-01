@@ -39,7 +39,17 @@ body{
   .navbar-brand {
     font-size: 0.9rem;
   }
+}
 
+@media (min-width: 992px){
+  .navbar-expand-lg{
+    .navbar-nav{
+      .nav-link {
+          padding-right: 0rem;
+          padding-left: 1rem;
+      }
+    }
+  }
 }
 
 #logo {
@@ -116,44 +126,18 @@ padding: 0px 16px 12px 16px;
   padding-left: 1.75rem;
   }
 }
+
 // Gallery
-
 #gallery{
-
-  #project-img{
-    padding-bottom: 8rem;
-  }
-
-  #project-id{
-    font-family: "Rakkas", serif;
-    font-size: 6rem;
-    line-height: 1;
-
-    @media (max-width: 700px){
-      font-size: 2.5rem;
-    }
-  }
-
-  #project-desc{
-    font-size: 1.5rem;
-
-    @media (max-width: 700px){
-      font-size: 1rem;
-    }
+  .card {
+    border: none;
+    background-color: transparent;
   }
 }
 
-// #gallery.row{
-//     background-image: url("../images/example_long.png");
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     margin-left: 1rem;
-//     margin-right: 1rem;
-//
-//     @media (max-width: 992px){
-//       margin-left: 1.75rem;
-//     }
-// }
+ .card-img-top{
+   border: none;
+ }
 
 #gallery-img {
   display: block;
@@ -189,51 +173,21 @@ padding: 0px 16px 12px 16px;
   -ms-transform: translate(-50%, -50%);
 }
 
-//Footer
-.fa{
-  padding-left: 10px;
-}
-p{
-  padding-top: 10px;
-  margin: 0;
+//Project Pages
+#hero-img{
+  padding-top: 2rem;
 }
 
-//Bottom Nav
-#bottom-nav {
-  font-size: 1.25rem;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  @media (max-width: 991px){
-    font-size: 1rem;
-  }
-
+#project-desc{
   @media (max-width: 576px){
-    visibility: hidden;
+    text-align: center;
   }
 }
 
-a {
-  text-decoration: none;
-  color: #d1d1d1;
+#project-img{
+  border: solid 1px rgb(133, 133, 133);
 }
 
-  a:hover {
-    text-decoration: none;
-    color: #000;
-  }
-
-//Portfolio Pages
-.card {
-  border: none;
-  background-color: transparent;
-
-  .card-img-bottom {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  h3 {
-    font-family: "Kumar One", sans-serif;
-  }
+h5{
+  font-size: 5rem;
 }

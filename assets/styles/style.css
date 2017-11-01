@@ -28,6 +28,10 @@ body {
   .navbar .navbar-brand {
     font-size: 0.9rem; }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 1rem; } }
 #logo {
   text-align: center;
   text-transform: uppercase;
@@ -79,20 +83,12 @@ body {
   #select-work {
     padding-left: 1.75rem; } }
 
-#gallery #project-img {
-  padding-bottom: 8rem; }
-#gallery #project-id {
-  font-family: "Rakkas", serif;
-  font-size: 6rem;
-  line-height: 1; }
-  @media (max-width: 700px) {
-    #gallery #project-id {
-      font-size: 2.5rem; } }
-#gallery #project-desc {
-  font-size: 1.5rem; }
-  @media (max-width: 700px) {
-    #gallery #project-desc {
-      font-size: 1rem; } }
+#gallery .card {
+  border: none;
+  background-color: transparent; }
+
+.card-img-top {
+  border: none; }
 
 #gallery-img {
   display: block;
@@ -124,39 +120,17 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
 
-.fa {
-  padding-left: 10px; }
+#hero-img {
+  padding-top: 2rem; }
 
-p {
-  padding-top: 10px;
-  margin: 0; }
+@media (max-width: 576px) {
+  #project-desc {
+    text-align: center; } }
 
-#bottom-nav {
-  font-size: 1.25rem;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (max-width: 991px) {
-    #bottom-nav {
-      font-size: 1rem; } }
-  @media (max-width: 576px) {
-    #bottom-nav {
-      visibility: hidden; } }
+#project-img {
+  border: solid 1px #858585; }
 
-a {
-  text-decoration: none;
-  color: #d1d1d1; }
-
-a:hover {
-  text-decoration: none;
-  color: #000; }
-
-.card {
-  border: none;
-  background-color: transparent; }
-  .card .card-img-bottom {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem; }
-  .card h3 {
-    font-family: "Kumar One", sans-serif; }
+h5 {
+  font-size: 5rem; }
 
 /*# sourceMappingURL=style.css.map */
