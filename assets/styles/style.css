@@ -1,10 +1,25 @@
 body {
   height: 100%;
   font-family: "Karla", sans-serif;
-  background-color: #ffffff; }
+  background-color: #f2f2f2;
+  padding-bottom: 4rem; }
+  body h1 {
+    font-family: "Playfair Display", serif;
+    padding-bottom: 1rem; }
+  body h3 {
+    font-family: "Source Code Pro", sans-serif;
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 1rem;
+    padding-bottom: 0.5rem; }
   body h4 {
     font-size: 1.2rem;
     margin: 0; }
+  body h5 {
+    color: pink;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
 
 .container {
   max-width: 1070px;
@@ -120,15 +135,18 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
 
-#hero-img {
-  padding-top: 2rem; }
+#device-img {
+  padding-top: 6rem;
+  padding-bottom: 3rem; }
 
-@media (max-width: 576px) {
-  #project-desc {
-    text-align: center; } }
+#project-desc {
+  padding-bottom: 2rem; }
+  @media (max-width: 576px) {
+    #project-desc {
+      text-align: center; } }
 
 #project-img {
-  border: solid 1px #858585; }
+  padding-bottom: 1rem; }
 
 h5 {
   font-size: 5rem; }

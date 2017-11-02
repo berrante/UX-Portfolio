@@ -2,11 +2,32 @@
 body{
   height: 100%;
   font-family: "Karla", sans-serif;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
+  padding-bottom: 4rem;
+
+  h1{
+    font-family: "Playfair Display", serif;
+    padding-bottom: 1rem;
+  }
+
+  h3{
+    font-family: "Source Code Pro", sans-serif;
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
 
   h4{
     font-size: 1.2rem;
     margin: 0;
+  }
+
+  h5{
+    color: pink;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 }
 
@@ -174,18 +195,21 @@ padding: 0px 16px 12px 16px;
 }
 
 //Project Pages
-#hero-img{
-  padding-top: 2rem;
+#device-img{
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
 #project-desc{
+  padding-bottom: 2rem;
+
   @media (max-width: 576px){
     text-align: center;
   }
 }
 
 #project-img{
-  border: solid 1px rgb(133, 133, 133);
+  padding-bottom: 1rem;
 }
 
 h5{
