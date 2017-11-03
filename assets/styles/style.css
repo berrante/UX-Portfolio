@@ -13,8 +13,11 @@ body {
     font-size: 1rem;
     padding-bottom: 0.5rem; }
   body h4 {
-    font-size: 1.2rem;
-    margin: 0; }
+    font-size: .9rem;
+    margin: 0;
+    color: #999;
+    font-family: "Source Code Pro", sans-serif;
+    text-transform: uppercase; }
   body h5 {
     color: pink;
     font-size: 1rem;
@@ -42,6 +45,14 @@ body {
       padding: 1.75rem 1rem 0 1.75rem; } }
   .navbar .navbar-brand {
     font-size: 0.9rem; }
+  .navbar .navbar-nav .active > .nav-link {
+    color: #3840ff; }
+  .navbar a:hover {
+    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-repeat: repeat-x;
+    background-size: 0.1rem 0.1rem;
+    text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
+    background-position: 0 2rem; }
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -53,7 +64,7 @@ body {
   display: inline;
   position: relative;
   padding: 0;
-  color: #f16754; }
+  color: #3840ff; }
 
 .navbar-light .navbar-toggler {
   border: none; }
@@ -77,6 +88,16 @@ body {
     font-size: 1.9rem;
     line-height: 2.6rem;
     padding-bottom: 2rem; }
+  #header-row a {
+    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-repeat: repeat-x;
+    background-size: 0.1rem 0.1rem;
+    text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
+    background-position: 0 2rem;
+    color: #212529; }
+  #header-row a:hover {
+    color: #3840ff;
+    text-decoration: none; }
   @media (max-width: 992px) {
     #header-row {
       padding: 3rem 1.75rem; } }
@@ -101,6 +122,8 @@ body {
 #gallery .card {
   border: none;
   background-color: transparent; }
+  #gallery .card .card-body {
+    padding-left: 0; }
 
 .card-img-top {
   border: none; }
