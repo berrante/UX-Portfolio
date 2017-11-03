@@ -1,8 +1,7 @@
 body {
   height: 100%;
   font-family: "Karla", sans-serif;
-  background-color: #f2f2f2;
-  padding-bottom: 4rem; }
+  background-color: #f2f2f2; }
   body h1 {
     font-family: "Playfair Display", serif;
     padding-bottom: 1rem; }
@@ -30,7 +29,7 @@ body {
   margin-right: auto; }
 
 #gallery {
-  padding-bottom: 25px; }
+  padding-bottom: 5rem; }
 
 #first-row {
   padding-top: 0; }
@@ -157,6 +156,19 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
+
+#contact {
+  font-size: 2rem; }
+  #contact a {
+    color: #212529;
+    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-repeat: repeat-x;
+    background-size: 0.1rem 0.1rem;
+    text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
+    background-position: 0 2rem; }
+  #contact a:hover {
+    color: #3840ff;
+    text-decoration: none; }
 
 #device-img {
   padding-top: 6rem;
