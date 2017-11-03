@@ -26,7 +26,7 @@ body{
   }
 
   h5{
-    color: pink;
+    color: #3840ff;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -186,16 +186,17 @@ padding: 0px 16px 12px 16px;
     padding-left: 0;
     }
   }
+
+#img-container {
+  position: relative;
+  width: 100%;
 }
 
- .card-img-top{
-   border: none;
- }
-
-#gallery-img {
+.card-img-top {
   display: block;
   width: 100%;
   height: auto;
+  border: none;
 }
 
 .overlay {
@@ -207,23 +208,13 @@ padding: 0px 16px 12px 16px;
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(255, 255, 255, .9);
+  transition: .3s ease;
+  background-color: rgba(#3840ff, 0.5);
 }
 
 #img-container:hover .overlay {
   opacity: 1;
 }
-
-.text {
-  color: #000;
-  font-size: 20px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 
 //Contact
@@ -247,11 +238,20 @@ padding: 0px 16px 12px 16px;
 //Project Pages
 #device-img{
   padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 #project-desc{
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+
+  a{
+    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-repeat: repeat-x;
+    background-size: 0.1rem 0.1rem;
+    text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
+    background-position: 0 1rem;
+    color: black;
+  }
 
   @media (max-width: 576px){
     text-align: center;
@@ -260,6 +260,10 @@ padding: 0px 16px 12px 16px;
 
 #project-img{
   padding-bottom: 1rem;
+}
+
+#last-img{
+  padding-bottom: 5rem;
 }
 
 h5{
