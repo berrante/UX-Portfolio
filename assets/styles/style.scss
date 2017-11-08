@@ -1,4 +1,4 @@
-$main-color: #3840ff;
+$main-color: #e900d9;
 
 //Global
 body{
@@ -66,11 +66,11 @@ body{
   }
 
   .navbar-nav .active>.nav-link{
-    color: #3840ff;
+    color: $main-color;
   }
 
   a:hover{
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, $main-color 0, $main-color 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
@@ -95,7 +95,7 @@ body{
     display: inline;
     position: relative;
     padding: 0;
-    color: #3840ff;
+    color: $main-color;
 }
 
 //Hamburger
@@ -135,7 +135,7 @@ padding: 0px 16px 12px 16px;
   }
 
   a{
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, $main-color 0, $main-color 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
@@ -144,7 +144,7 @@ padding: 0px 16px 12px 16px;
   }
 
   a:hover {
-    color: #3840ff;
+    color: $main-color;
     text-decoration: none;
 }
 
@@ -211,7 +211,7 @@ padding: 0px 16px 12px 16px;
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: rgba(#3840ff, 0.5);
+  background-color: rgba($main-color, 0.5);
 }
 
 #img-container:hover .overlay {
@@ -225,7 +225,7 @@ padding: 0px 16px 12px 16px;
 
   a{
     color: #212529;
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, $main-color 0, $main-color 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
@@ -233,7 +233,7 @@ padding: 0px 16px 12px 16px;
   }
 
   a:hover{
-    color: #3840ff;
+    color: $main-color;
     text-decoration: none;
   }
 }
@@ -247,7 +247,7 @@ padding: 0px 16px 12px 16px;
   padding-bottom: 3rem;
 
   a{
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, $main-color 0, $main-color 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
