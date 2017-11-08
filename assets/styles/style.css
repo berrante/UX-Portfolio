@@ -18,7 +18,7 @@ body {
     font-family: "Source Code Pro", sans-serif;
     text-transform: uppercase; }
   body h5 {
-    color: #3840ff;
+    color: #ff00ed;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px; }
@@ -45,9 +45,9 @@ body {
   .navbar .navbar-brand {
     font-size: 0.9rem; }
   .navbar .navbar-nav .active > .nav-link {
-    color: #3840ff; }
+    color: #ff00ed; }
   .navbar a:hover {
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, #ff00ed 0, #ff00ed 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
@@ -63,7 +63,7 @@ body {
   display: inline;
   position: relative;
   padding: 0;
-  color: #3840ff; }
+  color: #ff00ed; }
 
 .navbar-light .navbar-toggler {
   border: none; }
@@ -88,14 +88,14 @@ body {
     line-height: 2.6rem;
     padding-bottom: 2rem; }
   #header-row a {
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, #ff00ed 0, #ff00ed 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
     background-position: 0 2rem;
     color: #212529; }
   #header-row a:hover {
-    color: #3840ff;
+    color: #ff00ed;
     text-decoration: none; }
   @media (max-width: 992px) {
     #header-row {
@@ -141,7 +141,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: rgba(56, 64, 255, 0.5); }
+  background-color: rgba(255, 0, 237, 0.5); }
 #gallery #img-container:hover .overlay {
   opacity: 1; }
 
@@ -149,13 +149,13 @@ body {
   font-size: 2rem; }
   #contact a {
     color: #212529;
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, #ff00ed 0, #ff00ed 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
     background-position: 0 2rem; }
   #contact a:hover {
-    color: #3840ff;
+    color: #ff00ed;
     text-decoration: none; }
 
 #device-img {
@@ -165,7 +165,7 @@ body {
 #project-desc {
   padding-bottom: 3rem; }
   #project-desc a {
-    background-image: linear-gradient(to bottom, #3840ff 0, #3840ff 100%);
+    background-image: linear-gradient(to bottom, #ff00ed 0, #ff00ed 100%);
     background-repeat: repeat-x;
     background-size: 0.1rem 0.1rem;
     text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
