@@ -22,7 +22,7 @@ body{
   h4{
     font-size: .9rem;
     margin: 0;
-    color: #999;
+    color: $main-color;
     font-family: "Source Code Pro", sans-serif;
     text-transform: uppercase;
   }
@@ -34,7 +34,7 @@ body{
     letter-spacing: 1px;
   }
 
-  h6{
+  .h6{
     font-family: "Source Code Pro", serif;
     color: $main-color;
     font-size: 1.5rem;

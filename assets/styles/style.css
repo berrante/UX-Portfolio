@@ -14,7 +14,7 @@ body {
   body h4 {
     font-size: .9rem;
     margin: 0;
-    color: #999;
+    color: #ff00ed;
     font-family: "Source Code Pro", sans-serif;
     text-transform: uppercase; }
   body h5 {
@@ -22,7 +22,7 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px; }
-  body h6 {
+  body .h6 {
     font-family: "Source Code Pro", serif;
     color: #ff00ed;
     font-size: 1.5rem;
